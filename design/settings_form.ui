@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1061</width>
+    <height>841</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+	background: transparent;
+}
+QPushButton{
+	background: white;
+	font-size: 20px;
+	padding: 10px;
+	font-family: Montserrat;
+	border-radius: 30px;
+	border: 2px solid black;
+}
+QPushButton:hover{
+	background: #C4C4C4;
+	box-shadow: 100px 100px #C4C4C4
+}
+QLabel{
+	font-size: 19px;
+	background-color: white;	
+	padding: 0px;
+	border-radius: 30px;
+	border: 2px solid black;
+}
+QListWidget {
+	font-size: 17px;
+	background-color: white;
+	border-radius: 50px;
+	padding: 30px;
+	border: 2px solid black;
+}
+QPlainTextEdit {
+	font-size: 19px;
+	background-color: white;
+	border-radius: 50px;
+	padding: 30px;
+	font-weight: bold;
+	border: 2px solid black;
+}</string>
+  </property>
+  <widget class="QPushButton" name="change_bg">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>160</y>
+     <width>321</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Сменить фон</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="set_my_bg1">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>270</y>
+     <width>321</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Свой фон</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>40</y>
+     <width>91</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: transparent;
+border: none;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>images/pic1.png</normaloff>images/pic1.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>80</width>
+     <height>80</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="reset_stat">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>560</y>
+     <width>321</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Сброс статистики</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="reset_all">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>670</y>
+     <width>321</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>Удаляет все ваши данные</string>
+   </property>
+   <property name="text">
+    <string>Сброс данных</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="listWidget">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>160</y>
+     <width>561</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <property name="verticalScrollBarPolicy">
+    <enum>Qt::ScrollBarAsNeeded</enum>
+   </property>
+   <property name="sizeAdjustPolicy">
+    <enum>QAbstractScrollArea::AdjustIgnored</enum>
+   </property>
+   <item>
+    <property name="text">
+     <string>Двойной клик по слову в словаре - режим редактирования</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Delete - удалить слово из словаря</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Enter - добавить, подтвердить, окей, далее</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Ctrl + enter в переводчике - перевести слово</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Ctrl + s в переводчике - сохранить слово в словарь</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Esc - выйти из миниигры</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>750</x>
+     <y>40</y>
+     <width>91</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: transparent;
+border: none;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>images/hotkey.png</normaloff>images/hotkey.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>80</width>
+     <height>80</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>430</y>
+     <width>91</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: transparent;
+border: none;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>images/ret1.png</normaloff>images/ret1.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>80</width>
+     <height>80</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>750</x>
+     <y>430</y>
+     <width>91</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: transparent;
+border: none;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>images/cat_ico.png</normaloff>images/cat_ico.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>90</width>
+     <height>90</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="plainTextEdit">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>560</y>
+     <width>551</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="tabChangesFocus">
+    <bool>false</bool>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+   <property name="plainText">
+    <string>                  Информация от разработчиков
+   Создано при поддержке сообщества котиков)</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

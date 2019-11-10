@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>947</width>
+    <height>105</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+	background: transparent;
+}
+QPushButton{
+	background: transparent;
+	border: none;
+	font-size: 20px;
+}
+QLabel{
+	font-size: 25px;
+	background-color: transparent;	
+	padding: 0px;
+	border-radius: 15px;
+	border: 1px solid black;
+	border: none;
+}
+#rus1 {
+	font-size: 20px;
+}
+#engl1 {
+	font-size: 25px;
+	font-weight: bold;
+}</string>
+  </property>
+  <widget class="QLabel" name="engl1">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>2</y>
+     <width>681</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="rus1">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>52</y>
+     <width>681</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="del1">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>20</y>
+     <width>71</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>images/del.png</normaloff>images/del.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>30</width>
+     <height>30</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="edit1">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>800</x>
+     <y>20</y>
+     <width>71</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>images/edit.png</normaloff>images/edit.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>35</width>
+     <height>35</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="tren1">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>20</y>
+     <width>71</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>images/tren2.png</normaloff>images/tren2.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>35</width>
+     <height>35</height>
+    </size>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

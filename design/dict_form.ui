@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1060</width>
+    <height>811</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Noto Sans Light</family>
+    <pointsize>12</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+	background: transparent;
+}
+QPushButton{
+	background: white;
+	font-size: 20px;
+	padding: 10px;
+	font-family: Montserrat;
+	border-radius: 30px;
+	border: 2px solid black;
+}
+QPushButton:hover{
+	background: #C4C4C4;
+	box-shadow: 100px 100px #C4C4C4
+}
+QLabel{
+	font-size: 20px;
+	background-color: white;	
+	padding: 0px;
+	border-radius: 30px;
+	border: 2px solid black;
+}
+QListWidget {
+	font-size: 20px;
+	background-color: white;
+	border-radius: 50px;
+	padding: 30px;
+	border: 2px solid black;
+}
+QLineEdit{
+	font-size: 20px;
+	background-color: white;	
+	padding: 0px 15px;
+	border-radius: 30px;
+	border: 2px solid black;
+}
+QComboBox{
+	font-size: 20px;
+	background-color: white;
+	border-radius: 30px;
+	border: 2px solid black;
+	margin: 10px;
+	padding: 0px 15px;
+}</string>
+  </property>
+  <widget class="QListWidget" name="lw">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>120</y>
+     <width>1041</width>
+     <height>691</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="add1">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>0</y>
+     <width>101</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>Добавить слово</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>images/add.png</normaloff>images/add.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>60</width>
+     <height>60</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="search1">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>10</y>
+     <width>361</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>Поиск по слову</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="sort1">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>0</y>
+     <width>381</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>Сортировка слов</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>По алфавиту</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>По добавлению</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>По количеству ошибок</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Тренировать</string>
+    </property>
+   </item>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1061</width>
+    <height>811</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+	background: transparent;
+}
+QPushButton{
+	background: white;
+	font-size: 20px;
+	padding: 10px;
+	border-radius: 20px;
+	border: 2px solid black;
+}
+QPushButton:hover{
+	background: #C4C4C4;
+}
+QLabel{
+	font-size: 25px;
+	background-color: white;	
+	padding: 0px 10px;
+	border-radius: 30px;
+	border: 2px solid  black;
+}
+QListWidget {
+	font-size: 20px;
+	background-color: white;
+	border-radius: 50px;
+	padding: 30px;
+	border: 2px solid black;
+}
+QPlainTextEdit{
+	font-size: 15px;
+	background-color: white;
+	border-radius: 30px;
+	padding: 10px;
+	border: 2px solid black;
+}
+QComboBox{
+	font-size: 20px;
+	background-color: white;
+	border-radius: 30px;
+	border: 2px solid black;
+	margin: 10px;
+	padding: 0px 15px;
+}
+QLineEdit{
+	font-size: 20px;
+	background-color: white;	
+	padding: 0px 10px;
+	border-radius: 30px;
+	border: 2px solid black;
+}
+QRadioButton{
+	background: white;
+	font-size: 20px;
+	padding: 10px;
+	border-radius: 20px;
+	border: 2px solid black;
+}
+#ans1{
+	background: #0071E3;
+	color: white;
+	border: none;
+
+}
+#ans1:hover{
+	background: #004DB5;
+}</string>
+  </property>
+  <widget class="QPushButton" name="back1">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>50</y>
+     <width>111</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>Назад</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: none;
+background: transparent;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>images/back1.png</normaloff>images/back1.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>50</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="words1">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>40</y>
+     <width>321</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Слова: </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="true_words1">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>110</y>
+     <width>321</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Правильных:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="need_word">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>240</y>
+     <width>521</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ans1">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>680</y>
+     <width>271</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>Далее</string>
+   </property>
+   <property name="default">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="w1">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>270</y>
+     <width>361</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 20px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="w2">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>340</y>
+     <width>361</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 20px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="w3">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>410</y>
+     <width>361</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 20px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="w4">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>480</y>
+     <width>361</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 20px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="w5">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>550</y>
+     <width>361</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 20px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

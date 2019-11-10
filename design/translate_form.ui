@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1041</width>
+    <height>801</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="windowOpacity">
+   <double>1.000000000000000</double>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">*{
+    font-family: &quot;Century Gothic&quot;;
+}
+QWidget {
+	background: transparent;
+}
+QPlainTextEdit{
+	font-size: 30px;
+	background-color: white;
+	border-radius: 50px;
+	padding: 30px;
+	border: 2px solid black;
+}
+QPushButton{
+	background: white;
+	font-size: 20px;
+	padding: 10px;
+	border-radius: 30px;
+	border: 2px solid black;
+}
+QPushButton:hover{
+	background: #C4C4C4;
+}
+QLabel{
+	font-size: 20px;
+	background-color: white;	
+	padding: 0px;
+	border-radius: 30px;
+	border: 2px solid black;
+}
+QLabel#lbl_usl{
+	color: black;
+	text-decoration: none;
+}</string>
+  </property>
+  <widget class="QPlainTextEdit" name="output">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>420</y>
+     <width>981</width>
+     <height>251</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="input">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>130</y>
+     <width>981</width>
+     <height>251</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="change1">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>30</y>
+     <width>91</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>images/change.png</normaloff>images/change.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>30</width>
+     <height>30</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl1">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>20</y>
+     <width>271</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Русский</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl2">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>20</y>
+     <width>271</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Английский</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_usl">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>710</y>
+     <width>441</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Переведено сервисом «Яндекс.Переводчик»</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="add_to_dict">
+   <property name="geometry">
+    <rect>
+     <x>790</x>
+     <y>710</y>
+     <width>181</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>images/rewrite.png</normaloff>images/rewrite.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>60</width>
+     <height>60</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="translate1">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>710</y>
+     <width>181</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Перевести</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>images/translate1.png</normaloff>images/translate1.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>20</width>
+     <height>20</height>
+    </size>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>input</tabstop>
+  <tabstop>output</tabstop>
+  <tabstop>translate1</tabstop>
+  <tabstop>add_to_dict</tabstop>
+  <tabstop>change1</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

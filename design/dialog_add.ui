@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>348</width>
+    <height>324</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget{
+	background-color: #303030;
+}
+QLineEdit{
+	font-size: 20px;
+	background-color: white;
+	border-radius: 30px;
+	border: 1px solid black;
+	padding: 0px 10px;
+}
+QPushButton{
+	background: white;
+	font-size: 15px;
+	padding: 10px;
+	border-radius: 15px;
+	border: 1px solid black;
+}
+QPushButton:hover{
+	background: #C4C4C4;
+}
+QLabel{
+	font-size: 20px;
+	background-color: white;	
+	padding: 0px;
+	border-radius: 30px;
+	border: 1px solid black;
+}
+QCheckBox{
+	font-size: 15px;
+	padding: 0px 10px;
+	color: white;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="add2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>240</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Добавить</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cancel2">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>240</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Отмена</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="inp2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>110</y>
+      <width>331</width>
+      <height>61</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="inp1">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>331</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="tren">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>190</y>
+      <width>271</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>Слова для треировки используются в минииграх</string>
+    </property>
+    <property name="text">
+     <string>Тренировать</string>
+    </property>
+    <property name="tristate">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>348</width>
+     <height>18</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <tabstops>
+  <tabstop>inp1</tabstop>
+  <tabstop>inp2</tabstop>
+  <tabstop>tren</tabstop>
+  <tabstop>add2</tabstop>
+  <tabstop>cancel2</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

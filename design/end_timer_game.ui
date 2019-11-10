@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1061</width>
+    <height>811</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="toolTip">
+   <string/>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+	background: transparent;
+}
+QPushButton{
+	background: white;
+	font-size: 20px;
+	padding: 10px;
+	border-radius: 20px;
+	border: 2px solid black;
+}
+QPushButton:hover{
+	background: #C4C4C4;
+}
+QLabel{
+	font-size: 25px;
+	background-color: white;	
+	padding: 0px 10px;
+	border-radius: 30px;
+	border: 2px solid  black;
+}
+QListWidget {
+	font-size: 20px;
+	background-color: white;
+	border-radius: 50px;
+	padding: 30px;
+	border: 2px solid black;
+}
+QPlainTextEdit{
+	font-size: 15px;
+	background-color: white;
+	border-radius: 30px;
+	padding: 10px;
+	border: 2px solid black;
+}
+QComboBox{
+	font-size: 20px;
+	background-color: white;
+	border-radius: 30px;
+	border: 2px solid black;
+	margin: 10px;
+	padding: 0px 15px;
+}
+QLineEdit{
+	font-size: 20px;
+	background-color: white;	
+	padding: 0px 10px;
+	border-radius: 30px;
+	border: 2px solid black;
+}
+QRadioButton{
+	background: white;
+	font-size: 20px;
+	padding: 10px;
+	border-radius: 20px;
+	border: 2px solid black;
+}
+#ans1{
+	background: #0071E3;
+	color: white;
+	border: none;
+
+}
+#ans1:hover{
+	background: #004DB5;
+}</string>
+  </property>
+  <widget class="QLabel" name="results1">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>180</y>
+     <width>681</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 35px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="back1">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>50</y>
+     <width>111</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>Назад</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: none;
+background: transparent;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>images/back1.png</normaloff>images/back1.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>50</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="sanovo1">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>640</y>
+     <width>341</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Играть снова</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="record1">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>410</y>
+     <width>681</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 30px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

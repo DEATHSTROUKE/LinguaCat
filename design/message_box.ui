@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>522</width>
+    <height>228</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget{
+	background-color: #303030;
+}
+QLineEdit{
+	font-size: 20px;
+	background-color: white;
+	border-radius: 30px;
+	border: 1px solid black;
+	padding: 0px 10px;
+}
+QPushButton{
+	background: white;
+	font-size: 15px;
+	padding: 10px;
+	border-radius: 15px;
+	border: 1px solid black;
+}
+QPushButton:hover{
+	background: #C4C4C4;
+}
+QLabel{
+	font-size: 20px;
+	background-color: white;	
+	padding: 10px;
+	border-radius: 30px;
+	border: 1px solid black;
+	background: #202020;
+	border: none;
+	color: white;
+}
+QCheckBox{
+	font-size: 15px;
+	padding: 0px 10px;
+	color: white;
+}</string>
+  </property>
+  <widget class="QPushButton" name="no1">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>150</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Нет</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>30</y>
+     <width>371</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="yes1">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>150</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Да</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>25</y>
+     <width>101</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: transparent;
+border: none;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>images/ques1.png</normaloff>images/ques1.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>80</width>
+     <height>80</height>
+    </size>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
