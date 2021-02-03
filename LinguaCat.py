@@ -176,7 +176,8 @@ class Translate(QWidget):
         '''Translate function'''
         url = f'https://translate.yandex.net/api/v1.5/tr.json/translate'
         translate_params = {
-            'key': 'trnsl.1.1.20191028T102129Z.9daef2eca8217847.138130454cbac21810b727472a4db0aeb40b9f7e',
+            # 'key': 'trnsl.1.1.20191028T102129Z.9daef2eca8217847.138130454cbac21810b727472a4db0aeb40b9f7e',
+            'key': 'trnsl.1.1.20180409T191230Z.177ce2b6974a1b0d.e51478c3fdaa6b3a3af0cf16416d65dbad138de1',
             'text': self.input.toPlainText(),
             'lang': f'{self.lang1}-{self.lang2}'}
         try:

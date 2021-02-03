@@ -10,6 +10,14 @@
     <height>801</height>
    </rect>
   </property>
+  <property name="font">
+   <font>
+    <family>MS Shell Dlg 2</family>
+   </font>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::DefaultContextMenu</enum>
+  </property>
   <property name="windowTitle">
    <string>Form</string>
   </property>
@@ -17,10 +25,7 @@
    <double>1.000000000000000</double>
   </property>
   <property name="styleSheet">
-   <string notr="true">*{
-    font-family: &quot;Century Gothic&quot;;
-}
-QWidget {
+   <string notr="true">QWidget {
 	background: transparent;
 }
 QPlainTextEdit{
@@ -61,6 +66,12 @@ QLabel#lbl_usl{
      <height>251</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <family>Arial Rounded MT Bold</family>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
   </widget>
   <widget class="QPlainTextEdit" name="input">
    <property name="geometry">
@@ -70,6 +81,11 @@ QLabel#lbl_usl{
      <width>981</width>
      <height>251</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+    </font>
    </property>
   </widget>
   <widget class="QPushButton" name="change1">
